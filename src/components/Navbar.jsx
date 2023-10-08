@@ -2,14 +2,15 @@ import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../providers/AuthProvider';
 
+
 const Navbar = () => {
 
-    const{user, logOut} = useContext(AuthContext)
-
-    const handleSignOut = () =>{
+    const { user, logOut } = useContext(AuthContext)
+    // const{user} = UseAuth(AuthContext)
+    const handleSignOut = () => {
         logOut()
-        .then()
-        .catch()
+            .then()
+            .catch()
     }
 
     const links = <>
@@ -23,9 +24,9 @@ const Navbar = () => {
         <li className='mr-3'><NavLink to='/contact' className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "text-white text-lg font-semibold bg-rose-500 px-1 rounded" : "bg-slate-400 px-1 text-lg font-semibold text-white rounded"}>Contact</NavLink></li>
 
-<li className='mr-3'><NavLink to='/gallery' className={({ isActive, isPending }) =>
+        <li className='mr-3'><NavLink to='/gallery' className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "text-white text-lg font-semibold bg-rose-500 px-1 rounded" : "bg-slate-400 px-1 text-lg font-semibold text-white rounded"}>Gallery</NavLink></li>
-<li className='mr-3'><NavLink to='/blog' className={({ isActive, isPending }) =>
+        <li className='mr-3'><NavLink to='/blog' className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "text-white text-lg font-semibold bg-rose-500 px-1 rounded" : "bg-slate-400 px-1 text-white text-lg font-semibold rounded"}>Blogs</NavLink></li>
 
     </>
@@ -51,15 +52,18 @@ const Navbar = () => {
             </div>
 
             <div className='navbar-end'>
-
+               
                 {
-                    user ? 
-                    <button onClick={handleSignOut} className='btn btn-error text-white'>sign Out</button>
-                    :
-                    <Link to="/login"><button className='btn btn-error text-white'>Log in / sign up </button></Link>
+                    user ?
+                        <div className='flex'>
+                            <p className='mr-2'>User : {user.email}</p>
+                            <button onClick={handleSignOut} className='btn btn-error text-white'>sign Out</button>
+                        </div>
+                        :
+                        <Link to="/login"><button className='btn btn-error text-white'>Log in / sign up </button></Link>
                 }
 
-                
+
             </div>
 
         </div>
