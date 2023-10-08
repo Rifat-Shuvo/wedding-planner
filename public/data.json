@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "photo": "https://i.ibb.co/2kBPBxT/images.jpg",
+      "title": "Weddings",
+      "category": "weddings",
+      "description": "On the joyous day of the wedding, the bride and groom were dressed in their finest attire. The bride was radiant in her white gown, while the groom was dashing in his black suit. The air was filled with the scent of flowers and the sound of music as the couple exchanged vows in front of their loved ones.After the ceremony, the guests gathered for a reception filled with food, drinks, and dancing. The bride and groom cut their wedding cake and shared a first dance as husband and wife. It was a truly magical day, and the couple's happiness was palpable.",
+      "price": 12000
+    },
+    {
+      "id": 2,
+      "photo": "https://i.ibb.co/L12JT00/images-4.jpg",
+      "title": "Birthday Parties",
+      "category": "Birthday Parties",
+      "description": "Celebrate your birthday in style with a fun and festive event at our venue! We offer a variety of packages to choose from, so you can create the perfect party for your guests. Whether you're looking for a casual get-together or a lavish celebration, we have you covered.Our birthday event packages include everything you need for a great time, including food and drinks, music and dancing, and a variety of activities and games. We can also customize your package to include any special requests you may have.So what are you waiting for? Book your birthday event today and let us help you create a day to remember!",
+      "price": 2000
+    },
+    {
+      "id": 3,
+      "photo": "https://i.ibb.co/xMwqLXT/images-6.jpg",
+      "title": "Baby Shower",
+      "category": "Baby Shower",
+      "description": "A baby shower is a joyous occasion to celebrate the upcoming arrival of a new baby. It is a time for close friends and family members to gather and shower the mother-to-be with love and support.Baby showers are typically decorated in a festive theme, such as baby animals, nursery rhymes, or storybook characters. The food and drinks are often baby-themed as well, with cupcakes decorated in onesies, blue and pink punch, and diaper-shaped cookies.At the end of the baby shower, the mother-to-be usually gives a thank-you speech to her guests. She expresses her gratitude for their love and support, and she looks forward to celebrating with them again when the baby arrives.Baby showers are a special time to celebrate the new life that is about to be born. It is a time for family and friends to come together and show their love and support for the mother-to-be.",
+      "price": 3000
+    },
+    {
+      "id": 4,
+      "photo": "https://i.ibb.co/d0DbGG0/download.jpg",
+      "title": "Anniversary",
+      "category": "Anniversary",
+      "description": "On October 24, 2023, the United Nations will celebrate its 75th anniversary. This milestone is a testament to the enduring power of international cooperation and the importance of the UN's mission to promote peace, security, and development for all.The anniversary celebration will be a global event, with events taking place in all corners of the world. The main event will be held in New York City, at the UN Headquarters. This event will feature speeches from world leaders, cultural performances, and a special exhibit on the history of the UN.In addition to the main event, there will be many other events taking place around the world to celebrate the UN's anniversary. These events will include community gatherings, educational programs, and cultural events.The anniversary celebration is an opportunity to reflect on the UN's accomplishments and to renew our commitment to its mission. It is also a time to celebrate the diversity and unity of the human family",
+      "price": 3500
+    },
+    {
+      "id": 5,
+      "photo": "https://i.ibb.co/DbZvq0f/download-1.jpg",
+      "title": "Engagements",
+      "category": "Engagements",
+      "description": "The engagement event is a joyous occasion that celebrates the upcoming marriage of two people. It is a time for families and friends to come together to celebrate the couple's love and commitment to each other.The engagement event is typically held at a formal venue,  hrestaurant. The couple may choose to have a small and intimate gathering, or they may invite a large group of people.The event typically begins with a welcome from the couple's families. Then, the couple may exchange rings and make speeches to each other. After that, guests may enjoy food, drinks and dancing. The engagement event is a special time for the couple to celebrate their commitment to each other. It is also a time for their families and friends to come together and show their support.",
+      "price": 5000
+    },
+    {
+      "id": 6,
+      "photo": "https://i.ibb.co/QrcHSR6/download-8.jpg",
+      "title": "Retirements",
+      "category": "Retirements",
+      "description": "Join us in celebrating the retirement, our beloved colleague and friend, after 35 years of dedicated service to the company. John has been a valuable asset to our team and has made significant contributions to our success. He is known for his expertise, his willingness to help others, and his positive attitude.We will be hosting a retirement party for John on [date] at [time] at [location]. The party will feature food, drinks, music, and dancing. We will also have a special presentation to honor John and his accomplishments.We encourage everyone to attend the party to show our appreciation for John and to wish him all the best in his retirement.",
+      "price": 6000
+    }
+]
+  
