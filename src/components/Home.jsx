@@ -25,7 +25,7 @@ const Home = () => {
             </div>
 
 
-            <div className='mb-5 pb-5 bg-rose-100 h-[60vh]'>
+            <div className='mb-5 pb-5 bg-rose-100 md:h-[60vh]'>
                 <h1 className='m-8 pt-32 text-5xl font-bold text-center text-rose-600'>Why Choose Us???</h1>
                 <ul className='text-xl text-center text-slate-600'>
                     <li> We are experienced event planners who have a proven track record of success.</li>
@@ -35,7 +35,7 @@ const Home = () => {
                 </ul>
             </div>
 
-            <div className='h-[60vh]'>
+            <div className='md:h-[60vh]'>
                 <div className='pt-24'>
                     <h1 className='m-8 p-5 text-5xl font-bold text-center text-rose-600'>TESTIMONIALS !!!</h1>
 
