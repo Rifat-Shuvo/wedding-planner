@@ -12,7 +12,7 @@ const Card = () => {
    },[id,all])
  const {title,photo,description,price} =detailCard
     return (
-        <div className='px-5 bg-rose-300 h-[100vh]'>
+        <div className='px-5 bg-rose-300 md:h-[100vh]'>
           <div className='my-6 py-5 relative'>
                 <img src={photo} alt="" className='mx-auto w-fit h-[40vh] rounded-none' />
             
