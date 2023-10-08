@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../providers/AuthProvider';
 
 const Login = () => {
-    // const[user,setUser] = useState(null)
+    
     const { signIn, googleLogin } = useContext(AuthContext)
     const location = useLocation()
 
@@ -20,9 +20,9 @@ const Login = () => {
         // console.log(email,password);
         signIn(email, password)
             .then(result => {
-                // const loginUser = result.user
+                
                 console.log(result.user);
-                setUser(loginUser)
+             
                 navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
@@ -33,9 +33,9 @@ const Login = () => {
     const siteLogin = (media) => {
         media()
             .then(res => {
-                const loginUser = result.user
+               
                 console.log(res);
-                setUser(loginUser)
+                
                 navigate(location?.state ? location.state : '/')
     })
     .catch(err=>{
