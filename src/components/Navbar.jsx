@@ -56,7 +56,7 @@ const Navbar = () => {
                 {
                     user ?
                         <div className='flex'>
-                            <p className='mr-2'>User : {user.email}</p>
+                            <p className='mr-1 text-xs'>User : {user.email}</p>
                             <button onClick={handleSignOut} className='btn btn-error text-white'>sign Out</button>
                         </div>
                         :
