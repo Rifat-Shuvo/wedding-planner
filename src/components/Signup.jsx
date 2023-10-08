@@ -19,6 +19,19 @@ const Signup = () => {
         setLoginError('')
         setSignupSucess('')
 
+        if (password.length<6) {
+            setLoginError('password at least 6 charactes')
+            return
+        }
+        else if(!/[A-Z]/.test(password)){
+            setLoginError('password must have capital letter')
+            return
+        }
+        else if(!/[!@#$%^&*()\-_.+]/.test(password)){
+            setLoginError('password must have special Character')
+            return
+        }
+
         createUser(email, password)
             .then(res => {
 
