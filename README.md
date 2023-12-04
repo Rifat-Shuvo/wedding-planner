@@ -8,7 +8,9 @@
 *** The Entire code of these site is no  complex,  and readable,  So, other developer can implement more features later.
 *** The site is used by googgle firebase authentication,  with super easy to authorized in users.
 
+# Technology I used: HTML, CSS, JavaScript, React, Firebase, Tailwind CSS, Daisy ui.
 
+# Live site link: https://first-firebase-9d0b6.web.app/
 
 # React + Vite
 
