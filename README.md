@@ -1,12 +1,19 @@
 
-# Some of the Features of this project is Given Below:
+# Some of the Features of this project is Given Below: (a-9)
 
 *** This Website have super Easy to understand and use.
+
 *** The Entire UI of this site is super impressive to visitors.
+
 *** No Complexity in this UI, That's why the user experienced better.
+
 *** Log in & Sign up Functionality is implemented.  That's why only authorized user can access some of page.
+
 *** The Entire code of these site is no  complex,  and readable,  So, other developer can implement more features later.
+
 *** The site is used by googgle firebase authentication,  with super easy to authorized in users.
+
+*** There have private route where only registered user can access.
 
 # Technology I used: HTML, CSS, JavaScript, React, Firebase, Tailwind CSS, Daisy ui.
 
